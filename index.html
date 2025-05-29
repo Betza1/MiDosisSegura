@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiDosisSegura</title>
+   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- barra de navegacion  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a href="#" class="navbar-brand d-flex align-items-center">
+      <img src="RUTA"  class="img-fluid me-2" style="height: 40px;">
+      MiDosisSegura
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Protege tu salud y la de tu familia</h1>
+      <p class="lead">La mejor solución para vacunas seguras y confiables.</p>
+      <a href="#services" class="btn btn-light btn-lg">Descubre Más</a>
+    </div>
+  </div>
+
+  <!-- Sobre Nosotros -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre Nosotros</h2>
+      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, voluptas? Pariatur nostrum doloremque aperiam, id tenetur nihil voluptatum illo? Recusandae deserunt dicta earum modi possimus sapiente quibusdam quos ullam explicabo.</p>
+   <img src="ruta" alt="">
+    </div>
+  </section>
+
+   <!-- Servicios -->
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Servicios</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Servicio vacunas 1</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Servicio vacunas 2</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body text-center">
+              <h5 class="card-title">Servicio vacunas 3</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Formulario de contacto -->
+     <!-- Contacto -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Comentarios -->
+  <section id="testimonials" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Comentarios</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <blockquote class="blockquote text-center">
+            <p>"MiDosisSegura nos brindó un servicio excelente y rápido. Estamos protegidos y seguros."</p>
+            <footer class="blockquote-footer">Cliente satisfecho</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="blockquote text-center">
+            <p>"La atención fue increíblemente profesional y cálida. Recomiendo totalmente sus servicios."</p>
+            <footer class="blockquote-footer">Familia protegida</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 MiDosisSegura. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
