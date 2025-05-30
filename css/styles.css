@@ -1,0 +1,47 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa !important;
+  border-bottom: 2px solid #007bff;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #007bff !important;
+}
+.navbar-nav .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #28a745 !important;
+}
+
+/* Encabezado */
+.bg-primary {
+  background: linear-gradient(135deg, #007bff, #28a745);
+}
+.bg-primary h1,
+.bg-primary p {
+  color: white;
+}
+.btn-light {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+}
+.btn-light:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Títulos*/
+h2 {
+  color: #007bff;
+  font-weight: 600;
+}
