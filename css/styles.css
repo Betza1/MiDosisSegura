@@ -1,0 +1,193 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa !important;
+  border-bottom: 2px solid #007bff;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #007bff !important;
+}
+.navbar-nav .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link:hover {
+  color: #28a745 !important;
+}
+
+/* Encabezado */
+.bg-primary {
+  background: linear-gradient(135deg, #007bff, #28a745);
+}
+.bg-primary h1,
+.bg-primary p {
+  color: white;
+}
+.btn-light {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+}
+.btn-light:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Títulos*/
+h2 {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Servicios */
+#services {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#services h2 {
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#services p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+#services .card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+}
+
+#services .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+#services .card-body {
+  padding: 30px 20px;
+}
+
+#services .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007b5e;
+  margin-bottom: 10px;
+}
+
+#services h5 {
+  color: #6f42c1;
+  margin-bottom: 15px;
+}
+
+#services .card-text {
+  font-size: 0.95rem;
+  color: #333;
+}
+#services .service-img {
+  width: 60%;
+  height: auto;    
+  margin-top: 15px;
+  border-radius: 10px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Formulaio */
+#contacto {
+  padding: 60px 20px;
+  background-color: #f2f4f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+#contacto form {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+#contacto label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+#contacto input:focus,
+#contacto textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+#contacto button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+#contacto button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Comentarios */
+.blockquote {
+  background: linear-gradient(135deg, #e0e6fa, #cef0e2);
+  padding: 25px 30px;
+  border-left: 6px solid #4788bd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  color: #444;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blockquote:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 30px;
+  }
+}
+
+
